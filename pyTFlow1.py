@@ -1,3 +1,3 @@
-import ts as TensorFlow
+import TensorFlow as tf
 
-print(version(ts))
+print(version(tf))
