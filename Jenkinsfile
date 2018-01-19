@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'python 20180113python.py'
+                sh 'python 20180113python.py 10 7'
             }
         }
     }
